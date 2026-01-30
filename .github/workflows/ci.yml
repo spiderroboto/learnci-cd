@@ -18,5 +18,5 @@ jobs:
         with:
           node-version: 22
 
-      - name: pass exit code 0
-        run: node --version
+      # - name: Force Failure
+      #   run: (exit 1)
